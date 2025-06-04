@@ -1,1 +1,46 @@
-<p>nav-bar works!</p>
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-12 ">
+      <h1 class="display-4">Eclipse Store</h1>
+      <p class="lead">Tu tienda de deportes extremos</p>
+    </div>
+  </div>
+
+</div> -->
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/landing']" routerLinkActive="active">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/skate']" routerLinkActive="active">Skate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/bmx']" routerLinkActive="active">BMX</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/patines']" routerLinkActive="active">Patines</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/scooters']" routerLinkActive="active">Scooters</a>
+        </li>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end ">
+      <ul class="navbar-nav">
+        <li>
+          <a class="nav-link" href="#">Iniciar Sesion</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Registrarse</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link text-end" href="#">Carrito</a>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>

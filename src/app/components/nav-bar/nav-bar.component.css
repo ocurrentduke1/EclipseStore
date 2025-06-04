@@ -1,0 +1,12 @@
+/* Cambia el color de fondo de la navbar según el tema del navegador
+.navbar {
+  background-color: #f8f9fa; Color para modo claro
+  color: #212529;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background-color: #222831; Color para modo oscuro
+    color: #f8f9fa;
+  }
+} */

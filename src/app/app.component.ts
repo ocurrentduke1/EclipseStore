@@ -4,9 +4,9 @@ import { LandingComponent } from './components/landing/landing.component';
 
 @Component({
   selector: 'app-root',
-  imports: [LandingComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Eclipse-app';
